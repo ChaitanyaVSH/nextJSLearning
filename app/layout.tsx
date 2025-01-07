@@ -27,6 +27,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <h1>I'm a root element that appears at all places. I'm rendered from the root layout at app level.</h1>
         {children}
       </body>
     </html>
