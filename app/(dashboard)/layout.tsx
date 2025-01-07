@@ -5,12 +5,10 @@ import React from "react";
  */
 const Layout = ({children}: {children: React.ReactNode}) => {
   return (
-    <html>
-      <body>
+    <>
         <h1 className="text-3xl">I'm a dashboard layout.</h1>
         {children}
-      </body>
-    </html>
+    </>
   )
 }
 
