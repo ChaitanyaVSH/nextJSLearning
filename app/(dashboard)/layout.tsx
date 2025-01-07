@@ -5,10 +5,12 @@ import React from "react";
  */
 const Layout = ({children}: {children: React.ReactNode}) => {
   return (
-    <>
-        <div>I'm rendered only on main and sub routes like /dashboard/users, /dashboard/users/[..] </div>
+    <html>
+      <body>
+        <h1 className="text-3xl">I'm a dashboard layout.</h1>
         {children}
-    </>
+      </body>
+    </html>
   )
 }
 

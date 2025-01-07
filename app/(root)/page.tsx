@@ -1,4 +1,4 @@
-import Hello from "./components/hello";
+import Hello from "../components/hello";
 
 const page = () => {
   console.log("What am I ? -- SERVER/CLIENT ?");
