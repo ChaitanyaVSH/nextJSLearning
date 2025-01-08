@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 const Users = () => {
+  throw new Error("Custom error for Dashboards");
   return (
     <>
       <div>List of Users:</div>
