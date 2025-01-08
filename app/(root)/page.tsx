@@ -2,6 +2,7 @@ import Hello from "../components/hello";
 
 const page = () => {
   console.log("What am I ? -- SERVER/CLIENT ?");
+
   return (
     <>
       <h1 className="text-3xl">Welcome to Next.js</h1>
