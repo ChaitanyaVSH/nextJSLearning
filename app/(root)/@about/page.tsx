@@ -1,6 +1,6 @@
 const About = () => {
-  throw new Error("Custom error message")
-
+  
+  throw new Error("Error from about slot")
   return (
     <div>About</div>
   )
