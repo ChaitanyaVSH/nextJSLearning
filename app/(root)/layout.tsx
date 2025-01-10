@@ -18,13 +18,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  newsFeed
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode,
+  newsFeed: React.ReactNode
 }>) {
   return (
     <>
         <h1 className="text-3xl">I'm a root layout, but does not appear on dashboard route group.</h1>
         {children}
+        {newsFeed}
     </>
   );
 }
