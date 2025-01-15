@@ -1,4 +1,4 @@
-import books from "./database"
+import books, { Book } from "./database"
 
 export async function GET() {
     return Response.json({
@@ -13,3 +13,11 @@ export async function GET() {
 //         books
 //     })
 // }
+
+export async function POST(request: Request) {
+    const book: Book = await request.json()
+    console.log("chaitanya", request);
+    books.push(book)
+
+    return Response.json(books)
+}
